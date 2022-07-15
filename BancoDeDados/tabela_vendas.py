@@ -50,7 +50,3 @@ class Tabelavendas():
         cod = input("Digite aqui o cidog do produto: ")
         Tabelavendas.cursor.execute(f'UPDATE valor_unitario SET valor_unitario="{valor_unitario}" WHERE cod_barras = "{cod}"')
     
-coca = Tabelavendas("12340", "12986007902", 4, 3)
-
-coca.execute()
-coca.cadastrarvenda()

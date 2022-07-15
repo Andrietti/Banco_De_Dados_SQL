@@ -70,4 +70,3 @@ class Tabelacliente:
         Tabelacliente.conexao.commit()
 
 
-gabriel = Tabelacliente("Andrietti", "12986007902", "89062140")
